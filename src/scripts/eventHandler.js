@@ -28,7 +28,7 @@ const addInterest = () => {
 }
 
 const eventHandler = () => {
-    $("#output").addEventListener("click", (event) => {
+    $("#body").addEventListener("click", (event) => {
         if (event.target.id === "addInterest") {
             addInterest()
 

@@ -1,51 +1,51 @@
 {
-    "places": [
-      {
-        "id": 1,
-        "name": "Italy",
-        "visa_required": false
-      },
-      {
-        "id": 2,
-        "name": "Switzerland",
-        "visa_required": true
-      },
-      {
-        "id": 3,
-        "name": "France",
-        "visa_required": false
-      }
-    ],
-    "interests": [
-      {
-        "id": 1,
-        "placeId": 1,
-        "name": "Local Market",
-        "description": "Purchase local products and try the local food"
-      },
-      {
-        "id": 2,
-        "placeId": 1,
-        "name": "Gondola Ride",
-        "description": "Ride in a goldola, classic Italy"
-      },
-      {
-        "id": 3,
-        "placeId": 2,
-        "name": "Cheese Farm",
-        "description": "Tour of a goat farm where gormet cheeses are made and aged"
-      },
-      {
-        "id": 4,
-        "placeId": 3,
-        "name": "Art Museum",
-        "description": "See masterpieces from the world's greatest artists"
-      },
-      {
-        "id": 5,
-        "placeId": 3,
-        "name": "Vineyard Tour",
-        "description": "Visit a vineyard, see how wine is made, do a wine tasting"
-      }
-    ]
-  }
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "placeId": 1,
+      "name": "Local Market",
+      "description": "Purchase local products and try the local food"
+    },
+    {
+      "id": 2,
+      "placeId": 1,
+      "name": "Gondola Ride",
+      "description": "Ride in a goldola, classic Italy"
+    },
+    {
+      "id": 3,
+      "placeId": 2,
+      "name": "Cheese Farm",
+      "description": "Tour of a goat farm where gormet cheeses are made and aged"
+    },
+    {
+      "id": 4,
+      "placeId": 3,
+      "name": "Art Museum",
+      "description": "See masterpieces from the world's greatest artists"
+    },
+    {
+      "id": 5,
+      "placeId": 3,
+      "name": "Vineyard Tour",
+      "description": "Visit a vineyard, see how wine is made, do a wine tasting"
+    }
+  ]
+}
