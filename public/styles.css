@@ -1,0 +1,76 @@
+html {
+    max-width: 1000px;
+    margin: auto;
+    /* background-color: rgb(219, 233, 232); */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#formSection,
+#descriptionSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#formInputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.locationCard {
+    flex-basis: 25%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 0px 25px 25px 25px;
+    margin: 10px;
+}
+
+.interest {
+    padding-bottom: 15px;
+}
+
+.interestName {
+    font-size: 1.1em;
+}
+
+.interestDescription {
+    font-style: italic;
+}
+
+select,
+input,
+textarea {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#title {
+    font-size: 3em;
+}
