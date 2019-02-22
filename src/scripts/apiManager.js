@@ -3,7 +3,7 @@ const apiManager = {
         return fetch(`http://localhost:8088/${searchString}`)
             .then(response => response.json())
     },
-    post: (searchString) => {
+    post: (searchString, object) => {
         return fetch(`http://localhost:8088/${searchString}`, {
             method: "POST",
             headers: {
