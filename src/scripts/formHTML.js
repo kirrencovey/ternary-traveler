@@ -1,6 +1,6 @@
 const formHTML = () => {
     return `<fieldset>
-        <legend>Add New Point of Interest</legend>
+        <legend>Add A New Point of Interest</legend>
 
         <label for="Location">Location</label>
         <select name="locations" id="locations"></select>
