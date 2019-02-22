@@ -5,8 +5,7 @@ const dropdown = () => {
     apiManager.get("places")
         .then((locationArray) => {
             locationArray.forEach((location) => {
-                console.log(location)
-                let locationHTML = `<option value="${location.name}"></option>`
+                let locationHTML = `<option value="${location.name}">${location.name}</option>`
                 printToDOM(locationHTML, "locations")
             })
         })
