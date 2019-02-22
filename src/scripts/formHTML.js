@@ -1,15 +1,20 @@
 const formHTML = () => {
     return `<fieldset>
-        <legend>Add A New Point of Interest</legend>
+        <h3>Add A New Point of Interest</h3>
 
-        <label for="Location">Location</label>
-        <select name="locations" id="locations"></select>
+        <div id="formInputs">
+            <div id="formSection">
+                <label for="Location">Location</label>
+                <select name="locations" id="locations"></select>
 
-        <label for="interest">Name</label>
-        <input type="text" name="interest" id="interest">
-
-        <label for="description">Description</label>
-        <textarea name="description" id="description" cols="30" rows="5"></textarea>
+                <label for="interest">Name</label>
+                <input type="text" name="interest" id="interest">
+            </div>
+            <div id="descriptionSection">
+                <label for="description">Description</label>
+                <textarea name="description" id="description" cols="30" rows="5"></textarea>
+            </div>
+        </div>
 
         <button id="addInterest">Add</button>
     </fieldset>`

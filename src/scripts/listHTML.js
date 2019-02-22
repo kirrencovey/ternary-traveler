@@ -5,7 +5,7 @@ const listHTML = {
         </section>`
     },
     interestHTML: (interest) => {
-        return `<div id="interest--${interest.id}">
+        return `<div id="interest--${interest.id}" class="interest">
         <div class="interestName">${interest.name}</div>
         <div class="interestDescription">${interest.description}</div>
         <button id="delete--${interest.id}">Delete</button>
